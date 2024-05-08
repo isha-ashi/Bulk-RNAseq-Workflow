@@ -48,8 +48,6 @@ experiment <- "09-01-2023-DE_multivariateAnalysis"
 experiment_path <- file.path(result_path, experiment)
 dir.create(experiment_path, recursive=TRUE)
 
-# Set which tasks to run
-tasks <- c()
 ```
 
 
