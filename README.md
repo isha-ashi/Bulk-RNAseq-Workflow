@@ -6,10 +6,16 @@ workflow that preprocess fastq files to get abundance and counts data followed b
 following tools:
 
 1 FastQC - To check quality of Fastq files
+
 2. MultiQC - To prepare QC reports for quality report of raw, trimmed and aligned data
+   
 3. Trimmomatic - To trim sequenced data as and when needed (For trimming adapter sequences, over-represented sequences etc.)
+ 
 4. Kallisto - Alignment (pseudoalignment with bootstraps)
+   
 5. Sleuth - Read in the counts and abundance data and perform DE analysis at transcript level.
+   
+6. clusterProfiler - Over Representation Analysis (ORA) and Gene Set Enrichment Analysis (GSEA)
 
 The folder comprises of two main R Markdown scripts that can be used to "preprocess.Rmd" and "downstream_analysis.Rmd".
 The "preprocess.Rmd" calls on different inhouse R functions that creates SLURM scripts and submits them to HPC cluster to 
