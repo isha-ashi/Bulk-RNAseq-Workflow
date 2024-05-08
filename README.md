@@ -24,4 +24,4 @@ The "downstream_analysis.Rmd" performs DE Analysis using Sleuth followed by Over
 Enrichment Analysis (GSEA) using clusterProfiler. An html report is generated upon knitting the file and also various images, 
 excel files and csv files are generated and saveed at respective output folder.
 
-Sample output of [dosnstream_analysis.Rmd] (https://ondemand.htc.crc.pitt.edu/rnode/htc-n60.crc.pitt.edu/5020/file_show?path=%2Fix%2Fcigcore%2Fproj%2Fdelgoffe%2Fcode%2FIsha%2Fsleuth_mouse_analysis_Exvivo.html)
+Sample output of [downstream_analysis.Rmd](https://ondemand.htc.crc.pitt.edu/rnode/htc-n60.crc.pitt.edu/5020/file_show?path=%2Fix%2Fcigcore%2Fproj%2Fdelgoffe%2Fcode%2FIsha%2Fsleuth_mouse_analysis_Exvivo.html)
